@@ -7,7 +7,7 @@ total_hours = 6
 down_hours = .32
 
 
-def service_uptime():
+def service_uptime(total_hours, down_hours):
     uptime = (total_hours - down_hours) / total_hours
     print(f"The service's uptime is {uptime:.2%}.")
 
